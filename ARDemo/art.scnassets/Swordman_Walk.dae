@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+ <asset>
+  <contributor>
+   <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
+  </contributor>
+  <created>2017-07-06T00:43:49Z</created>
+  <modified>2017-07-06T00:43:49Z</modified>
+  <unit meter="1.000000"/>
+  <up_axis>Z_UP</up_axis>
+ </asset>
+ <library_animations>
+  <animation id="testyyy2-1" name="testyyy2-1">
+   <animation id="keyframedAnimations1">
+    <source id="genericSource2">
+     <float_array id="testyyy2-13-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-13-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource4">
+     <float_array id="testyyy2-15-array" count="80">0.9998 0.019829 0.00254752 -3.72529e-09 -0.0199656 0.996889 0.076242 1.00986 -0.00102779 -0.0762776 0.997086 0 0 0 0 1 0.999698 0.0243709 0.0031594 -3.72529e-09 -0.0243617 0.999699 -0.00292818 1.00986 -0.00322982 0.00285033 0.999991 0 0 0 0 1 0.9998 -0.019829 -0.00254753 -3.72529e-09 0.0199656 0.996889 0.076242 1.00986 0.00102779 -0.0762776 0.997086 0 0 0 0 1 0.999698 -0.0243709 -0.00315941 -3.72529e-09 0.0243617 0.999699 -0.00292818 1.00986 0.00322981 0.00285034 0.999991 0 0 0 0 1 0.9998 0.019829 0.00254752 -3.72529e-09 -0.0199656 0.996889 0.076242 1.00986 -0.00102779 -0.0762776 0.997086 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-15-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-16">
+     <input semantic="INPUT" source="#genericSource2"/>
+     <input semantic="OUTPUT" source="#genericSource4"/>
+    </sampler>
+    <channel source="#testyyy2-16" target="Head/SID_1"/>
+   </animation>
+   <animation id="keyframedAnimations7">
+    <source id="genericSource8">
+     <float_array id="testyyy2-19-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-19-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource10">
+     <float_array id="testyyy2-111-array" count="80">-0.0892927 0.0945294 0.991509 0 -0.0507309 0.993762 -0.0993128 0.762782 -0.994712 -0.0591681 -0.0839402 -5.96046e-08 0 0 0 1 0.00156338 0.183716 0.982978 0 -0.00665945 0.982959 -0.183702 0.762782 -0.999977 -0.0062589 0.00276019 -5.96046e-08 0 0 0 1 0.0024046 0.156242 0.987716 0 -0.0067645 0.987698 -0.156223 0.762782 -0.999974 -0.00630572 0.00343193 -5.96046e-08 0 0 0 1 0.00156338 0.183716 0.982978 0 -0.00665945 0.982959 -0.183702 0.762782 -0.999977 -0.0062589 0.00276019 -5.96046e-08 0 0 0 1 -0.0892927 0.0945294 0.991509 0 -0.0507309 0.993762 -0.0993128 0.762782 -0.994712 -0.0591681 -0.0839402 -5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-111-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-112">
+     <input semantic="INPUT" source="#genericSource8"/>
+     <input semantic="OUTPUT" source="#genericSource10"/>
+    </sampler>
+    <channel source="#testyyy2-112" target="Hand_R/SID_2"/>
+   </animation>
+   <animation id="keyframedAnimations13">
+    <source id="genericSource14">
+     <float_array id="testyyy2-115-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-115-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource16">
+     <float_array id="testyyy2-117-array" count="80">1 2.70919e-07 -1.65484e-07 2.98023e-08 -1.51588e-07 0.838213 0.545342 0.209827 2.86167e-07 -0.545342 0.838214 2.98023e-08 0 0 0 1 1 2.70919e-07 -1.65484e-07 2.98023e-08 -1.51588e-07 0.838213 0.545342 0.209827 2.86167e-07 -0.545342 0.838214 2.98023e-08 0 0 0 1 1 2.70919e-07 -1.65484e-07 2.98023e-08 -1.51588e-07 0.838213 0.545342 0.209827 2.86167e-07 -0.545342 0.838214 2.98023e-08 0 0 0 1 1 2.70919e-07 -1.65484e-07 2.98023e-08 -1.51588e-07 0.838213 0.545342 0.209827 2.86167e-07 -0.545342 0.838214 2.98023e-08 0 0 0 1 1 2.70919e-07 -1.65484e-07 2.98023e-08 -1.51588e-07 0.838213 0.545342 0.209827 2.86167e-07 -0.545342 0.838214 2.98023e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-117-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-118">
+     <input semantic="INPUT" source="#genericSource14"/>
+     <input semantic="OUTPUT" source="#genericSource16"/>
+    </sampler>
+    <channel source="#testyyy2-118" target="Leg_ik_R/SID_3"/>
+   </animation>
+   <animation id="keyframedAnimations19">
+    <source id="genericSource20">
+     <float_array id="testyyy2-121-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-121-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource22">
+     <float_array id="testyyy2-123-array" count="80">1 0 -3.89414e-07 0 0 -1 0 -0.168731 -3.89414e-07 0 -1 -2.22472 0 0 0 1 1 0 -3.89414e-07 0 0 -1 0 -0.168731 -3.89414e-07 0 -1 -2.22472 0 0 0 1 1 0 -3.89414e-07 0 0 -1 0 -0.168731 -3.89414e-07 0 -1 -2.22472 0 0 0 1 1 0 -3.89414e-07 0 0 -1 0 -0.168731 -3.89414e-07 0 -1 -2.22472 0 0 0 1 1 0 -3.89414e-07 0 0 -1 0 -0.168731 -3.89414e-07 0 -1 -2.22472 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-123-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-124">
+     <input semantic="INPUT" source="#genericSource20"/>
+     <input semantic="OUTPUT" source="#genericSource22"/>
+    </sampler>
+    <channel source="#testyyy2-124" target="Bone/SID_4"/>
+   </animation>
+   <animation id="keyframedAnimations25">
+    <source id="genericSource26">
+     <float_array id="testyyy2-127-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-127-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource28">
+     <float_array id="testyyy2-129-array" count="80">0.999879 0.0128843 -0.00866984 0 -0.0101246 0.964147 0.265175 0.62051 0.0117756 -0.265056 0.964161 1.19209e-07 0 0 0 1 0.999879 0.0128843 -0.00866984 0 -0.0101246 0.964147 0.265175 0.62051 0.0117756 -0.265056 0.964161 1.19209e-07 0 0 0 1 0.908209 0.417753 -0.025275 0 -0.395462 0.876379 0.2749 0.62051 0.136991 -0.239671 0.961141 1.19209e-07 0 0 0 1 0.999879 0.0128843 -0.00866984 0 -0.0101246 0.964147 0.265175 0.62051 0.0117756 -0.265056 0.964161 1.19209e-07 0 0 0 1 0.999879 0.0128843 -0.00866984 0 -0.0101246 0.964147 0.265175 0.62051 0.0117756 -0.265056 0.964161 1.19209e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-129-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-130">
+     <input semantic="INPUT" source="#genericSource26"/>
+     <input semantic="OUTPUT" source="#genericSource28"/>
+    </sampler>
+    <channel source="#testyyy2-130" target="Lower_Arm_L/SID_5"/>
+   </animation>
+   <animation id="keyframedAnimations31">
+    <source id="genericSource32">
+     <float_array id="testyyy2-133-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-133-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource34">
+     <float_array id="testyyy2-135-array" count="80">0.954913 -0.295101 -0.0324937 -0.550621 -0.289749 -0.90251 -0.318623 0.863792 0.0647001 0.313673 -0.947324 -0.00781883 0 0 0 1 0.941702 -0.332172 -0.0534647 -0.550621 -0.335444 -0.939227 -0.0730089 0.863792 -0.025964 0.0866871 -0.995897 -0.00781883 0 0 0 1 0.93824 -0.294184 -0.182102 -0.550621 -0.239412 -0.932003 0.272126 0.863792 -0.249775 -0.211722 -0.944874 -0.00781883 0 0 0 1 0.941702 -0.332172 -0.0534647 -0.550621 -0.335444 -0.939227 -0.0730089 0.863792 -0.025964 0.0866871 -0.995897 -0.00781883 0 0 0 1 0.954913 -0.295101 -0.0324937 -0.550621 -0.289749 -0.90251 -0.318623 0.863792 0.0647001 0.313673 -0.947324 -0.00781883 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-135-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-136">
+     <input semantic="INPUT" source="#genericSource32"/>
+     <input semantic="OUTPUT" source="#genericSource34"/>
+    </sampler>
+    <channel source="#testyyy2-136" target="Upper_Arm_R/SID_6"/>
+   </animation>
+   <animation id="keyframedAnimations37">
+    <source id="genericSource38">
+     <float_array id="testyyy2-139-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-139-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource40">
+     <float_array id="testyyy2-141-array" count="80">-0.0312416 0.322411 0.946084 0.550621 -0.334928 -0.895199 0.29401 0.863792 0.941725 -0.307685 0.135952 -0.00781882 0 0 0 1 -0.0297505 0.34056 0.939752 0.550621 -0.00757155 -0.940218 0.340489 0.863792 0.999529 0.00301433 0.0305505 -0.00781882 0 0 0 1 -0.0403526 0.324694 0.944958 0.550621 0.374797 -0.871756 0.315546 0.863792 0.926228 0.366901 -0.0865168 -0.00781882 0 0 0 1 -0.0297505 0.34056 0.939752 0.550621 -0.00757155 -0.940218 0.340489 0.863792 0.999529 0.00301433 0.0305505 -0.00781882 0 0 0 1 -0.0312416 0.322411 0.946084 0.550621 -0.334928 -0.895199 0.29401 0.863792 0.941725 -0.307685 0.135952 -0.00781882 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-141-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-142">
+     <input semantic="INPUT" source="#genericSource38"/>
+     <input semantic="OUTPUT" source="#genericSource40"/>
+    </sampler>
+    <channel source="#testyyy2-142" target="Upper_Arm_L/SID_7"/>
+   </animation>
+   <animation id="keyframedAnimations43">
+    <source id="genericSource44">
+     <float_array id="testyyy2-145-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-145-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource46">
+     <float_array id="testyyy2-147-array" count="80">0.992546 0.111343 0.0495466 0.434423 -0.121869 0.906815 0.403528 0.73693 3.46497e-07 -0.406559 0.913625 0.0247912 0 0 0 1 0.992546 0.121869 -4.07281e-07 0.434423 -0.121869 0.992546 9.78219e-08 -0.0911119 4.16167e-07 -4.74577e-08 1 0.0247912 0 0 0 1 0.992546 0.120471 0.0184119 0.434423 -0.121869 0.981153 0.149956 -0.767886 4.1399e-07 -0.151082 0.988521 0.0360296 0 0 0 1 1 -1.08353e-06 7.22289e-08 0.434423 7.75116e-07 0.66561 -0.7463 -0.445427 7.60565e-07 0.7463 0.66561 -0.397896 0 0 0 1 0.992546 0.111343 0.0495466 0.434423 -0.121869 0.906815 0.403528 0.73693 3.41338e-07 -0.406559 0.913625 0.0247912 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-147-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-148">
+     <input semantic="INPUT" source="#genericSource44"/>
+     <input semantic="OUTPUT" source="#genericSource46"/>
+    </sampler>
+    <channel source="#testyyy2-148" target="Leg_control_L/SID_8"/>
+   </animation>
+   <animation id="keyframedAnimations49">
+    <source id="genericSource50">
+     <float_array id="testyyy2-151-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-151-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource52">
+     <float_array id="testyyy2-153-array" count="80">-1 -9.0804e-08 -5.94708e-07 -2.98023e-08 2.92319e-07 0.810906 -0.585176 0.871674 5.37606e-07 -0.585176 -0.810909 -5.96046e-08 0 0 0 1 -1 -7.96281e-08 -5.98549e-07 0 2.64496e-07 0.833253 -0.552892 0.871674 5.51809e-07 -0.552892 -0.833255 -2.98023e-08 0 0 0 1 -1 -1.04308e-07 -5.62519e-07 8.9407e-08 4.53554e-07 0.374012 -0.927426 0.871674 3.13856e-07 -0.927423 -0.374012 0 0 0 0 1 -1 -1.31549e-07 -5.26081e-07 0 4.57047e-07 0.308949 -0.951081 0.871674 3.04077e-07 -0.951078 -0.308949 0 0 0 0 1 -1 -8.47504e-08 -6.01576e-07 0 2.84752e-07 0.810907 -0.585175 0.871674 5.37606e-07 -0.585175 -0.810909 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-153-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-154">
+     <input semantic="INPUT" source="#genericSource50"/>
+     <input semantic="OUTPUT" source="#genericSource52"/>
+    </sampler>
+    <channel source="#testyyy2-154" target="Lower_Leg_L/SID_9"/>
+   </animation>
+   <animation id="keyframedAnimations55">
+    <source id="genericSource56">
+     <float_array id="testyyy2-157-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-157-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource58">
+     <float_array id="testyyy2-159-array" count="80">0.997328 0.0730541 4.73369e-08 -7.4387e-07 -0.0070448 0.0961743 0.99534 -0.168731 0.0727137 -0.99268 0.096432 -1.91023 0 0 0 1 0.998236 -0.0110801 -0.0583204 -8.24895e-07 0.0585674 0.0234614 0.998008 -0.168731 -0.00968974 -0.999663 0.024069 -2.1183 0 0 0 1 0.997328 -0.0730549 2.78902e-08 -7.4387e-07 0.00704481 0.0961744 0.99534 -0.168731 -0.0727145 -0.99268 0.096432 -1.91023 0 0 0 1 0.998236 0.0110793 0.0583204 -8.24895e-07 -0.0585674 0.0234614 0.998008 -0.168731 0.00968896 -0.999663 0.0240689 -2.1183 0 0 0 1 0.997328 0.0730542 4.66088e-08 -7.4387e-07 -0.00704481 0.0961744 0.99534 -0.168731 0.0727137 -0.99268 0.0964321 -1.91023 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-159-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-160">
+     <input semantic="INPUT" source="#genericSource56"/>
+     <input semantic="OUTPUT" source="#genericSource58"/>
+    </sampler>
+    <channel source="#testyyy2-160" target="Torso/SID_10"/>
+   </animation>
+   <animation id="keyframedAnimations61">
+    <source id="genericSource62">
+     <float_array id="testyyy2-163-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-163-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource64">
+     <float_array id="testyyy2-165-array" count="80">-0.997118 0.0413677 -0.0636002 0.433307 -0.0758691 -0.547805 0.833161 0.0047144 -0.000374631 0.835581 0.549365 -0.0600315 0 0 0 1 -0.998719 0.019191 0.0468132 0.433307 0.00441865 -0.888647 0.458572 0.00471439 0.0504006 0.458189 0.887426 -0.0600315 0 0 0 1 -0.998211 -0.0524155 0.0287662 0.433307 0.059581 -0.831796 0.551875 0.00471431 -0.00499918 0.5526 0.833433 -0.0600315 0 0 0 1 -0.998346 -0.0296025 -0.0492784 0.433307 -0.0134971 -0.712552 0.70149 0.00471439 -0.0558791 0.700993 0.710976 -0.0600315 0 0 0 1 -0.997118 0.0413677 -0.0636003 0.433307 -0.0758692 -0.547806 0.83316 0.00471431 -0.000374699 0.835581 0.549366 -0.0600315 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-165-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-166">
+     <input semantic="INPUT" source="#genericSource62"/>
+     <input semantic="OUTPUT" source="#genericSource64"/>
+    </sampler>
+    <channel source="#testyyy2-166" target="Upper_Leg_L/SID_11"/>
+   </animation>
+   <animation id="keyframedAnimations67">
+    <source id="genericSource68">
+     <float_array id="testyyy2-169-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-169-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource70">
+     <float_array id="testyyy2-171-array" count="80">1 1.10709e-08 -2.38419e-07 -5.96046e-08 1.31629e-07 0.838213 0.545342 0.209827 2.02319e-07 -0.545342 0.838213 0 0 0 0 1 1 1.10709e-08 -2.38419e-07 -5.96046e-08 1.31629e-07 0.838213 0.545342 0.209827 2.02319e-07 -0.545342 0.838213 0 0 0 0 1 1 1.10709e-08 -2.38419e-07 -5.96046e-08 1.31629e-07 0.838213 0.545342 0.209827 2.02319e-07 -0.545342 0.838213 0 0 0 0 1 1 1.10709e-08 -2.38419e-07 -5.96046e-08 1.31629e-07 0.838213 0.545342 0.209827 2.02319e-07 -0.545342 0.838213 0 0 0 0 1 1 1.10709e-08 -2.38419e-07 -5.96046e-08 1.31629e-07 0.838213 0.545342 0.209827 2.02319e-07 -0.545342 0.838213 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-171-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-172">
+     <input semantic="INPUT" source="#genericSource68"/>
+     <input semantic="OUTPUT" source="#genericSource70"/>
+    </sampler>
+    <channel source="#testyyy2-172" target="Leg_ik_L/SID_12"/>
+   </animation>
+   <animation id="keyframedAnimations73">
+    <source id="genericSource74">
+     <float_array id="testyyy2-175-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-175-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource76">
+     <float_array id="testyyy2-177-array" count="80">-1 -7.54413e-07 -7.05963e-07 -0.00111604 -9.73876e-07 0.83822 0.545333 0.111689 1.76031e-07 0.545333 -0.83822 -0.185423 0 0 0 1 -1 -5.44667e-07 -6.81934e-07 -0.0011161 -8.49366e-07 0.838219 0.545333 0.11169 2.78774e-07 0.545333 -0.838219 -0.185423 0 0 0 1 -1 -1.25444e-05 -5.0873e-06 -0.00111359 -8.45477e-06 0.279356 0.960188 0.228962 -1.05713e-05 0.960188 -0.279356 -0.272445 0 0 0 1 -1 -3.18838e-07 -6.89164e-07 -0.00111628 -6.16568e-07 0.838306 0.545199 0.111742 4.26803e-07 0.5452 -0.838306 -0.185349 0 0 0 1 -1 -5.33242e-07 -6.74484e-07 -0.00111607 -8.7655e-07 0.83822 0.545333 0.111688 3.42533e-07 0.545333 -0.83822 -0.185424 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-177-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-178">
+     <input semantic="INPUT" source="#genericSource74"/>
+     <input semantic="OUTPUT" source="#genericSource76"/>
+    </sampler>
+    <channel source="#testyyy2-178" target="Foot_L/SID_13"/>
+   </animation>
+   <animation id="keyframedAnimations79">
+    <source id="genericSource80">
+     <float_array id="testyyy2-181-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-181-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource82">
+     <float_array id="testyyy2-183-array" count="80">-1 0 -3.89414e-07 0.433306 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 0.433306 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 0.433306 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 0.433306 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 0.433306 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-183-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-184">
+     <input semantic="INPUT" source="#genericSource80"/>
+     <input semantic="OUTPUT" source="#genericSource82"/>
+    </sampler>
+    <channel source="#testyyy2-184" target="Leg_target_post_L/SID_14"/>
+   </animation>
+   <animation id="keyframedAnimations85">
+    <source id="genericSource86">
+     <float_array id="testyyy2-187-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-187-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource88">
+     <float_array id="testyyy2-189-array" count="80">1 -8.33254e-07 -7.77689e-08 2.98023e-08 8.16362e-07 0.933134 -0.359529 0.209827 4.33056e-07 0.359528 0.933134 1.19209e-07 0 0 0 1 1 -8.33254e-07 -7.77689e-08 2.98023e-08 8.16362e-07 0.933134 -0.359529 0.209827 4.33056e-07 0.359528 0.933134 1.19209e-07 0 0 0 1 1 -8.33254e-07 -7.77689e-08 2.98023e-08 8.16362e-07 0.933134 -0.359529 0.209827 4.33056e-07 0.359528 0.933134 1.19209e-07 0 0 0 1 1 -8.33254e-07 -7.77689e-08 2.98023e-08 8.16362e-07 0.933134 -0.359529 0.209827 4.33056e-07 0.359528 0.933134 1.19209e-07 0 0 0 1 1 -8.33254e-07 -7.77689e-08 2.98023e-08 8.16362e-07 0.933134 -0.359529 0.209827 4.33056e-07 0.359528 0.933134 1.19209e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-189-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-190">
+     <input semantic="INPUT" source="#genericSource86"/>
+     <input semantic="OUTPUT" source="#genericSource88"/>
+    </sampler>
+    <channel source="#testyyy2-190" target="Toes_L/SID_15"/>
+   </animation>
+   <animation id="keyframedAnimations91">
+    <source id="genericSource92">
+     <float_array id="testyyy2-193-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-193-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource94">
+     <float_array id="testyyy2-195-array" count="80">0.992546 -0.120471 -0.0184129 -0.434423 0.121869 0.981153 0.149956 -0.767886 6.43207e-07 -0.151082 0.988521 0.0360301 0 0 0 1 1 2.9062e-07 -7.81899e-07 -0.434423 -7.76971e-07 0.66561 -0.7463 -0.445427 3.03551e-07 0.7463 0.66561 -0.397896 0 0 0 1 0.992546 -0.111342 -0.0495476 -0.434423 0.121869 0.906815 0.403528 0.73693 7.11175e-07 -0.406559 0.913625 0.0247917 0 0 0 1 0.992546 -0.121869 -6.5896e-07 -0.434423 0.121869 0.992546 1.18987e-07 -0.0911119 6.39548e-07 -1.98407e-07 1 0.0247917 0 0 0 1 0.992546 -0.120471 -0.0184129 -0.434423 0.121869 0.981153 0.149956 -0.767886 6.42999e-07 -0.151082 0.988521 0.0360301 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-195-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-196">
+     <input semantic="INPUT" source="#genericSource92"/>
+     <input semantic="OUTPUT" source="#genericSource94"/>
+    </sampler>
+    <channel source="#testyyy2-196" target="Leg_control_R/SID_16"/>
+   </animation>
+   <animation id="keyframedAnimations97">
+    <source id="genericSource98">
+     <float_array id="testyyy2-199-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-199-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource100">
+     <float_array id="testyyy2-1101-array" count="80">1.11759e-08 0.999995 0.00312479 1.49012e-08 1 -3.72529e-09 1.12597e-06 0.463816 1.12876e-06 0.00312479 -0.999995 0 0 0 0 1 1.11759e-08 0.999995 0.00312479 1.49012e-08 1 -3.72529e-09 1.12597e-06 0.463816 1.12876e-06 0.00312479 -0.999995 0 0 0 0 1 1.11759e-08 0.999995 0.00312479 1.49012e-08 1 -3.72529e-09 1.12597e-06 0.463816 1.12876e-06 0.00312479 -0.999995 0 0 0 0 1 1.11759e-08 0.999995 0.00312479 1.49012e-08 1 -3.72529e-09 1.12597e-06 0.463816 1.12876e-06 0.00312479 -0.999995 0 0 0 0 1 1.11759e-08 0.999995 0.00312479 1.49012e-08 1 -3.72529e-09 1.12597e-06 0.463816 1.12876e-06 0.00312479 -0.999995 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1101-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1102">
+     <input semantic="INPUT" source="#genericSource98"/>
+     <input semantic="OUTPUT" source="#genericSource100"/>
+    </sampler>
+    <channel source="#testyyy2-1102" target="Finger_R/SID_17"/>
+   </animation>
+   <animation id="keyframedAnimations103">
+    <source id="genericSource104">
+     <float_array id="testyyy2-1105-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1105-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource106">
+     <float_array id="testyyy2-1107-array" count="80">0.974168 0.169905 0.14876 0 -0.216807 0.887966 0.405599 0.62051 -0.0631812 -0.427374 0.901865 -5.96046e-08 0 0 0 1 0.968963 0.246992 -0.0103021 0 -0.247188 0.96856 -0.0280904 0.62051 0.00304009 0.0297651 0.999552 -5.96046e-08 0 0 0 1 0.968963 0.246992 -0.0103021 0 -0.247188 0.96856 -0.0280904 0.62051 0.00304009 0.0297651 0.999552 -5.96046e-08 0 0 0 1 0.968963 0.246992 -0.0103021 0 -0.247188 0.96856 -0.0280904 0.62051 0.00304009 0.0297651 0.999552 -5.96046e-08 0 0 0 1 0.974168 0.169905 0.14876 0 -0.216807 0.887966 0.405599 0.62051 -0.0631812 -0.427374 0.901865 -5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1107-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1108">
+     <input semantic="INPUT" source="#genericSource104"/>
+     <input semantic="OUTPUT" source="#genericSource106"/>
+    </sampler>
+    <channel source="#testyyy2-1108" target="Lower_Arm_R/SID_18"/>
+   </animation>
+   <animation id="keyframedAnimations109">
+    <source id="genericSource110">
+     <float_array id="testyyy2-1111-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1111-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource112">
+     <float_array id="testyyy2-1113-array" count="80">-1 0 -3.89414e-07 -0.433307 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 -0.433307 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 -0.433307 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 -0.433307 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 -1 0 -3.89414e-07 -0.433307 0 1 0 0.734908 3.89414e-07 0 -1 -1.37121 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1113-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1114">
+     <input semantic="INPUT" source="#genericSource110"/>
+     <input semantic="OUTPUT" source="#genericSource112"/>
+    </sampler>
+    <channel source="#testyyy2-1114" target="Leg_target_post_R/SID_19"/>
+   </animation>
+   <animation id="keyframedAnimations115">
+    <source id="genericSource116">
+     <float_array id="testyyy2-1117-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1117-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource118">
+     <float_array id="testyyy2-1119-array" count="80">-1 1.45284e-05 4.54508e-06 0.00111312 8.4516e-06 0.279355 0.960188 0.228963 1.26441e-05 0.960188 -0.279354 -0.272445 0 0 0 1 -1 6.87228e-07 -1.03067e-06 0.00111607 6.22621e-08 0.838307 0.545199 0.111741 1.20736e-06 0.545199 -0.838307 -0.185349 0 0 0 1 -1 2.72564e-06 -9.66277e-07 0.00111556 1.75067e-06 0.83822 0.545333 0.111688 2.22793e-06 0.545333 -0.83822 -0.185425 0 0 0 1 -1 1.71554e-06 -9.88499e-07 0.00111571 9.0152e-07 0.838218 0.545336 0.111689 1.74966e-06 0.545336 -0.838218 -0.185424 0 0 0 1 -1 1.45247e-05 4.55253e-06 0.00111312 8.42991e-06 0.279356 0.960188 0.228962 1.26361e-05 0.960188 -0.279356 -0.272445 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1119-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1120">
+     <input semantic="INPUT" source="#genericSource116"/>
+     <input semantic="OUTPUT" source="#genericSource118"/>
+    </sampler>
+    <channel source="#testyyy2-1120" target="Foot_R/SID_20"/>
+   </animation>
+   <animation id="keyframedAnimations121">
+    <source id="genericSource122">
+     <float_array id="testyyy2-1123-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1123-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource124">
+     <float_array id="testyyy2-1125-array" count="80">1 -1.14456e-06 -1.06846e-08 0.00111616 -3.09314e-07 -0.279211 0.96023 0.287571 -1.10004e-06 -0.96023 -0.279211 -0.0709968 0 0 0 1 1 -7.118e-07 -5.9377e-07 0.00111616 -2.72832e-07 -0.838213 0.545343 0.287571 -8.83897e-07 -0.545343 -0.838214 -0.0709968 0 0 0 1 1 -7.118e-07 -5.9377e-07 0.00111616 -2.72832e-07 -0.838213 0.545343 0.287571 -8.83897e-07 -0.545343 -0.838214 -0.0709968 0 0 0 1 1 -7.118e-07 -5.9377e-07 0.00111616 -2.72832e-07 -0.838213 0.545343 0.287571 -8.83897e-07 -0.545343 -0.838214 -0.0709968 0 0 0 1 1 -1.14456e-06 -1.06846e-08 0.00111616 -3.09314e-07 -0.279211 0.96023 0.287571 -1.10004e-06 -0.96023 -0.279211 -0.0709968 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1125-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1126">
+     <input semantic="INPUT" source="#genericSource122"/>
+     <input semantic="OUTPUT" source="#genericSource124"/>
+    </sampler>
+    <channel source="#testyyy2-1126" target="Foot_roll_R/SID_21"/>
+   </animation>
+   <animation id="keyframedAnimations127">
+    <source id="genericSource128">
+     <float_array id="testyyy2-1129-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1129-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource130">
+     <float_array id="testyyy2-1131-array" count="80">-2.98023e-08 1 3.72529e-09 0 -1 0 2.68221e-07 0.463816 2.6077e-07 -3.72529e-09 1 5.96046e-08 0 0 0 1 -2.98023e-08 1 3.72529e-09 0 -1 0 2.68221e-07 0.463816 2.6077e-07 -3.72529e-09 1 5.96046e-08 0 0 0 1 -2.98023e-08 1 3.72529e-09 0 -1 0 2.68221e-07 0.463816 2.6077e-07 -3.72529e-09 1 5.96046e-08 0 0 0 1 -2.98023e-08 1 3.72529e-09 0 -1 0 2.68221e-07 0.463816 2.6077e-07 -3.72529e-09 1 5.96046e-08 0 0 0 1 -2.98023e-08 1 3.72529e-09 0 -1 0 2.68221e-07 0.463816 2.6077e-07 -3.72529e-09 1 5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1131-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1132">
+     <input semantic="INPUT" source="#genericSource128"/>
+     <input semantic="OUTPUT" source="#genericSource130"/>
+    </sampler>
+    <channel source="#testyyy2-1132" target="Finger_L/SID_22"/>
+   </animation>
+   <animation id="keyframedAnimations133">
+    <source id="genericSource134">
+     <float_array id="testyyy2-1135-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1135-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource136">
+     <float_array id="testyyy2-1137-array" count="80">-1 2.17008e-07 -1.30217e-07 0.00111613 1.85264e-07 0.978234 0.207505 0.287571 1.70429e-07 0.207505 -0.978234 -0.070997 0 0 0 1 -0.992546 -0.0604789 -0.105804 0.00111613 -0.0811173 0.975772 0.203197 0.287571 0.0909513 0.210265 -0.973405 -0.070997 0 0 0 1 -1 2.17008e-07 -1.30217e-07 0.00111613 1.85264e-07 0.978234 0.207505 0.287571 1.70429e-07 0.207505 -0.978234 -0.070997 0 0 0 1 -1 2.17008e-07 -1.30217e-07 0.00111613 1.85264e-07 0.978234 0.207505 0.287571 1.70429e-07 0.207505 -0.978234 -0.070997 0 0 0 1 -1 2.17008e-07 -1.30217e-07 0.00111613 1.85264e-07 0.978234 0.207505 0.287571 1.70429e-07 0.207505 -0.978234 -0.070997 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1137-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1138">
+     <input semantic="INPUT" source="#genericSource134"/>
+     <input semantic="OUTPUT" source="#genericSource136"/>
+    </sampler>
+    <channel source="#testyyy2-1138" target="Toes_control_R/SID_23"/>
+   </animation>
+   <animation id="keyframedAnimations139">
+    <source id="genericSource140">
+     <float_array id="testyyy2-1141-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1141-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource142">
+     <float_array id="testyyy2-1143-array" count="80">-1 -1.75089e-07 -5.0012e-07 -5.96046e-08 4.61005e-07 0.374011 -0.927427 0.871674 3.39467e-07 -0.927425 -0.37401 2.98023e-08 0 0 0 1 -1 -1.35042e-07 -5.24335e-07 -5.96046e-08 4.55417e-07 0.308948 -0.951082 0.871674 2.96277e-07 -0.951079 -0.308947 1.49012e-08 0 0 0 1 -1 -7.79983e-08 -6.05593e-07 5.96046e-08 2.62517e-07 0.810905 -0.585179 0.871674 5.39469e-07 -0.58518 -0.810907 -2.98023e-08 0 0 0 1 -1 -8.3819e-08 -6.01576e-07 0 2.6403e-07 0.833251 -0.552896 0.871674 5.45057e-07 -0.552896 -0.833252 -2.98023e-08 0 0 0 1 -1 -1.42492e-07 -5.31785e-07 -2.98023e-08 4.56348e-07 0.374011 -0.927427 0.871673 3.25032e-07 -0.927425 -0.37401 2.98023e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1143-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1144">
+     <input semantic="INPUT" source="#genericSource140"/>
+     <input semantic="OUTPUT" source="#genericSource142"/>
+    </sampler>
+    <channel source="#testyyy2-1144" target="Lower_Leg_R/SID_24"/>
+   </animation>
+   <animation id="keyframedAnimations145">
+    <source id="genericSource146">
+     <float_array id="testyyy2-1147-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1147-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource148">
+     <float_array id="testyyy2-1149-array" count="80">0.999941 0.00873588 -0.00640984 2.98023e-08 -0.0073925 0.982548 0.185864 0.762782 0.00792167 -0.185806 0.982554 5.96046e-08 0 0 0 1 0.999941 0.00873588 -0.00640984 2.98023e-08 -0.0073925 0.982548 0.185864 0.762782 0.00792167 -0.185806 0.982554 5.96046e-08 0 0 0 1 0.999941 0.00873588 -0.00640984 2.98023e-08 -0.0073925 0.982548 0.185864 0.762782 0.00792167 -0.185806 0.982554 5.96046e-08 0 0 0 1 0.999941 0.00873588 -0.00640984 2.98023e-08 -0.0073925 0.982548 0.185864 0.762782 0.00792167 -0.185806 0.982554 5.96046e-08 0 0 0 1 0.999941 0.00873588 -0.00640984 2.98023e-08 -0.0073925 0.982548 0.185864 0.762782 0.00792167 -0.185806 0.982554 5.96046e-08 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1149-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1150">
+     <input semantic="INPUT" source="#genericSource146"/>
+     <input semantic="OUTPUT" source="#genericSource148"/>
+    </sampler>
+    <channel source="#testyyy2-1150" target="Hand_L/SID_25"/>
+   </animation>
+   <animation id="keyframedAnimations151">
+    <source id="genericSource152">
+     <float_array id="testyyy2-1153-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1153-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource154">
+     <float_array id="testyyy2-1155-array" count="80">-0.998211 0.0524152 -0.0287663 -0.433307 -0.0595808 -0.831795 0.551877 0.00471449 0.00499901 0.552602 0.833432 -0.0600315 0 0 0 1 -0.998346 0.0296024 0.0492781 -0.433307 0.013497 -0.712551 0.701491 0.0047145 0.0558787 0.700994 0.710975 -0.0600315 0 0 0 1 -0.997118 -0.0413676 0.0636003 -0.433307 0.0758691 -0.547803 0.833162 0.00471443 0.000374527 0.835582 0.549363 -0.0600315 0 0 0 1 -0.998719 -0.0191914 -0.0468132 -0.433307 -0.00441855 -0.888646 0.458575 0.00471449 -0.0504008 0.458191 0.887425 -0.0600315 0 0 0 1 -0.998211 0.0524153 -0.0287664 -0.433307 -0.0595808 -0.831795 0.551877 0.00471443 0.00499898 0.552602 0.833432 -0.0600315 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1155-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1156">
+     <input semantic="INPUT" source="#genericSource152"/>
+     <input semantic="OUTPUT" source="#genericSource154"/>
+    </sampler>
+    <channel source="#testyyy2-1156" target="Upper_Leg_R/SID_26"/>
+   </animation>
+   <animation id="keyframedAnimations157">
+    <source id="genericSource158">
+     <float_array id="testyyy2-1159-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1159-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource160">
+     <float_array id="testyyy2-1161-array" count="80">1 -2.97908e-07 -4.78197e-07 -0.00111634 1.1071e-08 -0.838213 0.545343 0.287571 -5.61309e-07 -0.545343 -0.838214 -0.0709968 0 0 0 1 1 -2.97908e-07 -4.78197e-07 -0.00111634 1.1071e-08 -0.838213 0.545343 0.287571 -5.61309e-07 -0.545343 -0.838214 -0.0709968 0 0 0 1 1 -3.20066e-07 -1.4259e-07 -0.00111634 4.7553e-08 -0.279211 0.96023 0.287571 -3.45165e-07 -0.96023 -0.279211 -0.0709968 0 0 0 1 1 -2.97908e-07 -4.78197e-07 -0.00111634 1.1071e-08 -0.838213 0.545343 0.287571 -5.61309e-07 -0.545343 -0.838214 -0.0709968 0 0 0 1 1 -2.97908e-07 -4.78197e-07 -0.00111634 1.1071e-08 -0.838213 0.545343 0.287571 -5.61309e-07 -0.545343 -0.838214 -0.0709968 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1161-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1162">
+     <input semantic="INPUT" source="#genericSource158"/>
+     <input semantic="OUTPUT" source="#genericSource160"/>
+    </sampler>
+    <channel source="#testyyy2-1162" target="Foot_roll_L/SID_27"/>
+   </animation>
+   <animation id="keyframedAnimations163">
+    <source id="genericSource164">
+     <float_array id="testyyy2-1165-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1165-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource166">
+     <float_array id="testyyy2-1167-array" count="80">0.993361 -0.107599 -0.0406912 7.45058e-09 0.109543 0.992772 0.0490316 1 0.0351214 -0.0531635 0.997968 7.45058e-09 0 0 0 1 0.995745 -0.067244 -0.0630054 7.45058e-09 0.0717968 0.994742 0.0730229 1 0.0577638 -0.0772358 0.995338 7.45058e-09 0 0 0 1 0.998721 -0.0382153 0.033112 7.45058e-09 0.0363774 0.997854 0.0544377 1 -0.0351213 -0.0531635 0.997968 7.45058e-09 0 0 0 1 0.995579 -0.0784263 0.051692 7.45058e-09 0.0740682 0.993923 0.0814245 1 -0.0577638 -0.0772358 0.995338 7.45058e-09 0 0 0 1 0.993361 -0.107599 -0.0406912 7.45058e-09 0.109543 0.992772 0.0490316 1 0.0351214 -0.0531635 0.997968 7.45058e-09 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1167-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1168">
+     <input semantic="INPUT" source="#genericSource164"/>
+     <input semantic="OUTPUT" source="#genericSource166"/>
+    </sampler>
+    <channel source="#testyyy2-1168" target="Chest/SID_28"/>
+   </animation>
+   <animation id="keyframedAnimations169">
+    <source id="genericSource170">
+     <float_array id="testyyy2-1171-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1171-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource172">
+     <float_array id="testyyy2-1173-array" count="80">-1 1.67609e-07 -3.73817e-07 -0.00111631 8.63922e-08 0.978234 0.207505 0.287571 3.98476e-07 0.207505 -0.978234 -0.070997 0 0 0 1 -1 1.67609e-07 -3.73817e-07 -0.00111631 8.63922e-08 0.978234 0.207505 0.287571 3.98476e-07 0.207505 -0.978234 -0.070997 0 0 0 1 -1 1.67609e-07 -3.73817e-07 -0.00111631 8.63922e-08 0.978234 0.207505 0.287571 3.98476e-07 0.207505 -0.978234 -0.070997 0 0 0 1 -0.992546 0.0604793 0.105803 -0.00111631 0.0811176 0.975772 0.203197 0.287571 -0.0909507 0.210265 -0.973405 -0.070997 0 0 0 1 -1 1.67609e-07 -3.73817e-07 -0.00111631 8.63922e-08 0.978234 0.207505 0.287571 3.98476e-07 0.207505 -0.978234 -0.070997 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1173-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1174">
+     <input semantic="INPUT" source="#genericSource170"/>
+     <input semantic="OUTPUT" source="#genericSource172"/>
+    </sampler>
+    <channel source="#testyyy2-1174" target="Toes_control_L/SID_29"/>
+   </animation>
+   <animation id="keyframedAnimations175">
+    <source id="genericSource176">
+     <float_array id="testyyy2-1177-array" count="5">0 0.375 0.708333 1.04167 1.375 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1177-array" count="5" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource178">
+     <float_array id="testyyy2-1179-array" count="80">1 1.05773e-05 -1.0522e-05 5.96046e-08 -1.42621e-05 0.472519 -0.88132 0.209827 -4.40135e-06 0.881321 0.472519 -1.19209e-07 0 0 0 1 1 1.05773e-05 -1.0522e-05 5.96046e-08 -1.42621e-05 0.472519 -0.88132 0.209827 -4.40135e-06 0.881321 0.472519 -1.19209e-07 0 0 0 1 1 1.05773e-05 -1.0522e-05 5.96046e-08 -1.42621e-05 0.472519 -0.88132 0.209827 -4.40135e-06 0.881321 0.472519 -1.19209e-07 0 0 0 1 1 1.05773e-05 -1.0522e-05 5.96046e-08 -1.42621e-05 0.472519 -0.88132 0.209827 -4.40135e-06 0.881321 0.472519 -1.19209e-07 0 0 0 1 1 1.05773e-05 -1.0522e-05 5.96046e-08 -1.42621e-05 0.472519 -0.88132 0.209827 -4.40135e-06 0.881321 0.472519 -1.19209e-07 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#testyyy2-1179-array" count="5" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="testyyy2-1180">
+     <input semantic="INPUT" source="#genericSource176"/>
+     <input semantic="OUTPUT" source="#genericSource178"/>
+    </sampler>
+    <channel source="#testyyy2-1180" target="Toes_R/SID_30"/>
+   </animation>
+  </animation>
+ </library_animations>
+ <library_visual_scenes>
+  <visual_scene id="scene181">
+   <node id="ccc" name="ccc">
+    <node id="Armature" name="Armature">
+     <matrix>18.48664 0 0 0 0 18.48664 0 3.119268 0 0 18.48664 41.12754 0 0 0 1 </matrix>
+     <node id="Bone" name="Bone" type="JOINT">
+      <matrix sid="SID_4">1 0 -3.89414e-07 0 0 -0.9999998 0 -0.1687309 -3.89414e-07 0 -1 -2.224717 0 0 0 1 </matrix>
+      <node id="Torso" name="Torso" type="JOINT">
+       <matrix sid="SID_10">0.9973279 0.07305413 4.73369e-08 -7.4387e-07 -0.007044802 0.09617433 0.9953396 -0.1687311 0.07271367 -0.99268 0.096432 -1.910229 0 0 0 1 </matrix>
+       <node id="Chest" name="Chest" type="JOINT">
+        <matrix sid="SID_28">0.9933614 -0.1075986 -0.0406912 7.45058e-09 0.1095432 0.9927717 0.04903156 0.9999999 0.03512135 -0.05316348 0.997968 7.45058e-09 0 0 0 1 </matrix>
+        <node id="Head" name="Head" type="JOINT">
+         <matrix sid="SID_1">0.9998001 0.01982904 0.002547518 -3.72529e-09 -0.01996558 0.9968894 0.07624196 1.009855 -0.001027789 -0.07627759 0.9970862 0 0 0 0 1 </matrix>
+        </node>
+        <node id="Upper_Arm_L" name="Upper_Arm_L" type="JOINT">
+         <matrix sid="SID_7">-0.0312416 0.322411 0.9460841 0.5506208 -0.3349284 -0.895199 0.2940101 0.8637917 0.9417255 -0.3076851 0.1359521 -0.00781882 0 0 0 1 </matrix>
+         <node id="Lower_Arm_L" name="Lower_Arm_L" type="JOINT">
+          <matrix sid="SID_5">0.9998794 0.01288429 -0.00866984 0 -0.01012462 0.964147 0.2651754 0.6205102 0.01177561 -0.2650556 0.9641612 1.19209e-07 0 0 0 1 </matrix>
+          <node id="Hand_L" name="Hand_L" type="JOINT">
+           <matrix sid="SID_25">0.9999412 0.00873588 -0.006409839 2.98023e-08 -0.007392496 0.9825476 0.1858641 0.7627817 0.007921673 -0.1858057 0.9825545 5.96046e-08 0 0 0 1 </matrix>
+           <node id="Finger_L" name="Finger_L" type="JOINT">
+            <matrix sid="SID_22">-2.98023e-08 1 3.72529e-09 0 -1 0 2.68221e-07 0.463816 2.6077e-07 -3.72529e-09 0.9999999 5.96046e-08 0 0 0 1 </matrix>
+           </node>
+          </node>
+         </node>
+        </node>
+        <node id="Upper_Arm_R" name="Upper_Arm_R" type="JOINT">
+         <matrix sid="SID_6">0.9549134 -0.295101 -0.03249365 -0.5506208 -0.2897487 -0.9025103 -0.3186231 0.8637919 0.06470014 0.3136725 -0.9473244 -0.007818835 0 0 0 1 </matrix>
+         <node id="Lower_Arm_R" name="Lower_Arm_R" type="JOINT">
+          <matrix sid="SID_18">0.9741676 0.1699047 0.1487605 0 -0.2168074 0.8879663 0.4055988 0.62051 -0.06318118 -0.4273738 0.9018646 -5.96046e-08 0 0 0 1 </matrix>
+          <node id="Hand_R" name="Hand_R" type="JOINT">
+           <matrix sid="SID_2">-0.08929275 0.09452939 0.9915094 0 -0.05073088 0.993762 -0.09931283 0.7627819 -0.9947125 -0.05916807 -0.08394019 -5.96046e-08 0 0 0 1 </matrix>
+           <node id="Finger_R" name="Finger_R" type="JOINT">
+            <matrix sid="SID_17">1.11759e-08 0.9999951 0.003124787 1.49012e-08 0.9999999 -3.72529e-09 1.12597e-06 0.4638157 1.12876e-06 0.003124788 -0.9999951 0 0 0 0 1 </matrix>
+           </node>
+          </node>
+         </node>
+        </node>
+       </node>
+       <node id="Upper_Leg_L" name="Upper_Leg_L" type="JOINT">
+        <matrix sid="SID_11">-0.9971178 0.04136766 -0.06360023 0.4333067 -0.07586914 -0.5478054 0.8331607 0.0047144 -0.000374631 0.8355811 0.549365 -0.06003147 0 0 0 1 </matrix>
+        <node id="Lower_Leg_L" name="Lower_Leg_L" type="JOINT">
+         <matrix sid="SID_9">-1 -9.0804e-08 -5.94708e-07 -2.98023e-08 2.92319e-07 0.8109064 -0.5851758 0.8716737 5.37606e-07 -0.5851763 -0.8109086 -5.96046e-08 0 0 0 1 </matrix>
+        </node>
+       </node>
+       <node id="Upper_Leg_R" name="Upper_Leg_R" type="JOINT">
+        <matrix sid="SID_26">-0.998211 0.05241518 -0.02876633 -0.4333066 -0.05958077 -0.8317953 0.551877 0.004714489 0.004999006 0.5526016 0.833432 -0.0600315 0 0 0 1 </matrix>
+        <node id="Lower_Leg_R" name="Lower_Leg_R" type="JOINT">
+         <matrix sid="SID_24">-0.9999999 -1.75089e-07 -5.0012e-07 -5.96046e-08 4.61005e-07 0.3740105 -0.9274272 0.8716736 3.39467e-07 -0.927425 -0.3740096 2.98023e-08 0 0 0 1 </matrix>
+        </node>
+       </node>
+      </node>
+      <node id="Leg_target_post_L" name="Leg_target_post_L" type="JOINT">
+       <matrix sid="SID_14">-1 0 -3.89414e-07 0.4333061 0 1 0 0.7349079 3.89414e-07 0 -1 -1.371209 0 0 0 1 </matrix>
+      </node>
+      <node id="Leg_control_L" name="Leg_control_L" type="JOINT">
+       <matrix sid="SID_8">0.9925462 0.1113427 0.0495466 0.4344229 -0.121869 0.9068147 0.4035283 0.7369299 3.46497e-07 -0.4065586 0.9136248 0.02479124 0 0 0 1 </matrix>
+       <node id="Foot_L" name="Foot_L" type="JOINT">
+        <matrix sid="SID_13">-1 -7.54413e-07 -7.05963e-07 -0.001116037 -9.73876e-07 0.8382196 0.5453326 0.1116885 1.76031e-07 0.5453331 -0.8382196 -0.1854234 0 0 0 1 </matrix>
+        <node id="Toes_L" name="Toes_L" type="JOINT">
+         <matrix sid="SID_15">1 -8.33254e-07 -7.77689e-08 2.98023e-08 8.16362e-07 0.933134 -0.3595285 0.2098274 4.33056e-07 0.3595284 0.9331341 1.19209e-07 0 0 0 1 </matrix>
+        </node>
+       </node>
+       <node id="Foot_roll_L" name="Foot_roll_L" type="JOINT">
+        <matrix sid="SID_27">0.9999999 -2.97908e-07 -4.78197e-07 -0.001116335 1.1071e-08 -0.8382133 0.5453426 0.2875711 -5.61309e-07 -0.5453426 -0.8382138 -0.07099676 0 0 0 1 </matrix>
+        <node id="Leg_ik_L" name="Leg_ik_L" type="JOINT">
+         <matrix sid="SID_12">0.9999999 1.10709e-08 -2.38419e-07 -5.96046e-08 1.31629e-07 0.8382134 0.5453424 0.2098274 2.02319e-07 -0.5453424 0.8382134 0 0 0 0 1 </matrix>
+        </node>
+       </node>
+       <node id="Toes_control_L" name="Toes_control_L" type="JOINT">
+        <matrix sid="SID_29">-0.9999999 1.67609e-07 -3.73817e-07 -0.001116306 8.63922e-08 0.9782344 0.2075046 0.2875711 3.98476e-07 0.2075047 -0.9782341 -0.070997 0 0 0 1 </matrix>
+       </node>
+      </node>
+      <node id="Leg_target_post_R" name="Leg_target_post_R" type="JOINT">
+       <matrix sid="SID_19">-1 0 -3.89414e-07 -0.4333072 0 1 0 0.7349079 3.89414e-07 0 -1 -1.371208 0 0 0 1 </matrix>
+      </node>
+      <node id="Leg_control_R" name="Leg_control_R" type="JOINT">
+       <matrix sid="SID_16">0.9925461 -0.1204705 -0.01841295 -0.4344229 0.1218695 0.9811529 0.149956 -0.7678856 6.43207e-07 -0.1510823 0.9885212 0.03603005 0 0 0 1 </matrix>
+       <node id="Foot_R" name="Foot_R" type="JOINT">
+        <matrix sid="SID_20">-1 1.45284e-05 4.54508e-06 0.001113117 8.4516e-06 0.2793546 0.9601883 0.2289626 1.26441e-05 0.9601884 -0.2793544 -0.272445 0 0 0 1 </matrix>
+        <node id="Toes_R" name="Toes_R" type="JOINT">
+         <matrix sid="SID_30">1 1.05773e-05 -1.0522e-05 5.96046e-08 -1.42621e-05 0.4725186 -0.8813204 0.2098273 -4.40135e-06 0.8813209 0.4725186 -1.19209e-07 0 0 0 1 </matrix>
+        </node>
+       </node>
+       <node id="Foot_roll_R" name="Foot_roll_R" type="JOINT">
+        <matrix sid="SID_21">1 -1.14456e-06 -1.06846e-08 0.001116157 -3.09314e-07 -0.2792109 0.9602299 0.2875711 -1.10004e-06 -0.9602301 -0.2792113 -0.07099676 0 0 0 1 </matrix>
+        <node id="Leg_ik_R" name="Leg_ik_R" type="JOINT">
+         <matrix sid="SID_3">1 2.70919e-07 -1.65484e-07 2.98023e-08 -1.51588e-07 0.8382134 0.5453421 0.2098275 2.86167e-07 -0.5453423 0.8382135 2.98023e-08 0 0 0 1 </matrix>
+        </node>
+       </node>
+       <node id="Toes_control_R" name="Toes_control_R" type="JOINT">
+        <matrix sid="SID_23">-1 2.17008e-07 -1.30217e-07 0.001116127 1.85264e-07 0.9782341 0.2075046 0.2875711 1.70429e-07 0.2075046 -0.9782341 -0.070997 0 0 0 1 </matrix>
+       </node>
+      </node>
+     </node>
+    </node>
+   </node>
+  </visual_scene>
+ </library_visual_scenes>
+ <scene>
+  <instance_visual_scene url="#scene181"/>
+ </scene>
+</COLLADA>
